@@ -1,0 +1,17 @@
+.canvas-404{
+ width: 100vw;
+ min-height:86vh;
+ padding:0 10vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex: 1;
+ flex-wrap: wrap;
+}
+.canvas-404-img{
+    flex-grow: 1;
+    flex-shrink: 1;
+    display: flex;
+    justify-content: center;
+    padding: 0 10vw;
+}

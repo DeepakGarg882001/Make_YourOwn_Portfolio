@@ -1,0 +1,151 @@
+.about-canvas{
+    width: 100vw;
+    min-height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient( 130deg,#f7e4d1d4,whitesmoke);
+}
+.about-paper{
+    min-width: 80%;
+    min-height: 92%;
+    box-shadow: 0px 0px 5px 0px #bbb9b9;
+    background-color: white;
+    flex-direction: row;
+    display: flex;
+}
+.canvas-left{
+    width:27vw;
+    background-color: whitesmoke;
+    display: flex;
+    flex:1;
+    flex-wrap: wrap;
+}
+.user-sec{
+    flex-basis:25vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-shrink: 1;
+    height: fit-content;
+}
+.user-img{
+    width: 18vw;
+    margin-top: 15px;
+}
+.user-name{
+    font-size: 2rem;
+    font-weight: 700;
+    word-wrap: break-word;
+    color: #837d7d;
+}
+.user-basics{
+    display: flex;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 1;
+    flex-basis: 25vw;
+}
+.hr-line{
+   border-color: white;
+   border-width: 4px;
+   width: 100%;
+}
+.user-status{
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #898686;
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+}
+.user-social-ids{
+    padding:20px;
+    display: flex;
+    gap:20px;
+    flex-shrink: 1;
+    flex-basis: 25vw;
+    justify-content: space-around;
+}
+.social-icon{
+    width: 30px;
+    height: 30px;
+}
+.canvas-right{
+    width: 70%;
+}
+.tabs-header{
+    width: 100%;
+    margin: 10px auto;
+    color: rgb(101, 169, 5);
+  
+}
+
+
+@media only screen and (max-width:800px) {
+    .about-paper{
+        flex-direction: column;
+    }
+    .canvas-left{
+        flex-direction: unset;
+        width:100%;
+        display:initial;
+    }
+    .user-sec{
+        flex-basis: 80vw;
+        flex-direction:row;
+        justify-content: center;
+        height: fit-content;
+    }
+    .user-img{
+        width: 24vw;
+    }
+    .user-name{
+        font-size: 1.2rem;
+    }
+    .user-basics{
+        flex-basis: 50vw;
+        margin: 0 auto;
+        gap: 5px;
+    }
+    .user-status{
+        padding: 10px;
+        font-size: 1.1rem;
+    }
+    .user-social-ids{
+        width: 80%;
+        justify-content: space-around;
+        margin: 0 auto;
+        padding-top: 0px;
+    }
+    .canvas-right{
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (max-width:460px) {
+   
+   
+    
+    .user-img{
+        width: 28vw;
+    }
+    .user-name{
+        font-size: 1.2rem;
+    }
+    .user-basics{
+       padding:7px ;
+    }
+    .user-status{
+        padding: 6px;
+        font-size: 1rem;
+    }
+    .social-icon{
+        width: 20px;
+        height: 20px;
+    }
+}

@@ -1,0 +1,97 @@
+.contact-canvas{
+    width: 100vw;
+    min-height:86vh;
+    padding: 25px 40px;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 5vw;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.info-box{
+    display: flex;
+    flex-shrink: 1;
+    flex-basis: 300px;
+    width: fit-content;
+    height:10vh;
+    margin: 0 auto;
+    background-color: #d4f2f9e0;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    gap: 15px;
+}
+.icon-style{
+    font-size:2rem;
+}
+.title-style{
+    font-size:1.3rem;
+    font-weight: bold;
+}
+
+.message-box{
+    display: flex;
+    flex-shrink: 1;
+    flex-basis: 500;
+    width: fit-content;
+    height:auto;
+    background-color: #d4f2f9e0;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 0px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+.inside-message-box{
+    display: flex;
+    flex:1;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    gap:20px;
+}
+.input-feild{
+   background-color: white;
+   width: auto  ;
+   flex-basis: 300px;
+   flex-shrink: 1;
+}
+.box{
+    width:80%;
+    height:25vh;
+    flex-shrink: 1;
+
+}
+.message-feild{
+    width: 100%;
+    height:25vh;
+    background-color: white;
+}
+
+@media only screen and (max-width:1100px)  {
+    .message-box{
+        width:75vw ;
+    }
+}   
+
+@media only screen and (max-width:750px)  {
+    .message-box{
+        width:90vw ;
+    }
+}  
+@media only screen and (max-width:550px)  {
+    .box{
+        flex-basis: 235px;
+    }
+}  
